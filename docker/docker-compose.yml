@@ -1,7 +1,7 @@
 services:
-  aspnet-webnet_hallo_asp:
+  aspnet-webnet_ticket_system:
     build:
       context: ..
       dockerfile: ./docker/Dockerfile
     ports:
-      - "8090:8080"
+      - "8091:8080"
